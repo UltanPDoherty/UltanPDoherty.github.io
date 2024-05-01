@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Undergraduate: B.A. in Mathematics, First Class Honours (Gold Medal), Trinity College Dublin, the University of Dublin, 2021
+* Secondary School: 625 Points in Leaving Certificate (Maximum)
 
 Work experience
 ======
