@@ -14,3 +14,5 @@ My PhD is funded by the Irish Research Council (IRC) under a Government of Irela
 My research is focused on developing statistical methods for automated cell population identification in flow cytometry data. I am particularly interested in model-based clustering and semi-supervised learning.
 
 My primary supervisor is Dr. Arthur White (School of Computer Science and Statistics, TCD) and my secondary supervisor is Prof. Rachel McLoughlin (School of Biochemistry and Immunology, TCD).
+
+![alt text](images/IRC_LOGO_RGB.jpg "Title")
