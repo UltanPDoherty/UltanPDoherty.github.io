@@ -15,4 +15,6 @@ My research is focused on developing statistical methods for automated cell popu
 
 My primary supervisor is Dr. Arthur White (School of Computer Science and Statistics, TCD) and my secondary supervisor is Prof. Rachel McLoughlin (School of Biochemistry and Immunology, TCD).
 
-![alt text](images/IRC_LOGO_RGB.jpg "Title")
+![IRC Logo](images/IRC_LOGO_RGB.jpg "IRC_Logo")
+
+![TCD Logo](images/Trinity_Main_Logo.jpg "TCD_Logo")
