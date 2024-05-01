@@ -1,12 +1,13 @@
 ---
 permalink: /
-title: "Ultán P. Doherty"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-3rd Year Statistics Phd Student at Trinity College Dublin.
+I am a 3rd Year Statistics Phd Student at Trinity College Dublin. My PhD is funded by the Irish Research Council (IRC) under a Government of Ireland Postgraduate (GOIPG) Scholarship.
 
-Irish Research Council (IRC) Government of Ireland Postgraduate (GOIPG) Scholar.
+My research is focused on developing statistical methods for automated cell population identification in flow cytometry data. I am particularly interested in model-based clustering and semi-supervised learning.
+
