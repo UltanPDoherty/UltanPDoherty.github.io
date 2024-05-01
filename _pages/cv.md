@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* Undergraduate: B.A. in Mathematics, First Class Honours (Gold Medal), Trinity College Dublin, the University of Dublin, 2021
-* Secondary School: 625 Points in Leaving Certificate (Maximum)
+* Undergraduate / Bachelor's: First Class Honours (Gold Medal) in Mathematics, Trinity College Dublin, 2021
+* Secondary School: 625 Points in Leaving Certificate (Maximum), 2017
 
 Work experience
 ======
