@@ -1,21 +1,17 @@
----
-title: "gateTree"
-author: "Ultán P. Doherty"
-date: "2024-04-25"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+gateTree
+================
+Ultán P. Doherty
+2024-04-25
 
 ## Install `gateTree`.
-```{r, eval=FALSE}
+
+``` r
 remotes::install_github("UltanPDoherty/gateTree")
 ```
 
 ## Load and plot data from the `healthyFlowData` package.
-```{r hfd1_setup, message=FALSE, warning=FALSE}
+
+``` r
 library(healthyFlowData)
 data(hd)
 hfd1 <- hd.flowSet[[1]]@exprs
@@ -23,13 +19,15 @@ hfd1 <- hd.flowSet[[1]]@exprs
 GGally::ggpairs(hfd1, upper = list(continuous = "density"), progress = FALSE)
 ```
 
+![](images/gateTree/hfd1_setup-1.png)<!-- -->
+
 ## Prepare a plusminus table which describes three populations.
 
-* CD4+ T Cells (CD4+CD8-CD3+CD19-)
-* CD8+ T Cells (CD4-CD8+CD3+CD19-)
-* B Cells      (CD4-CD8-CD3-CD19+)
+- CD4+ T Cells (CD4+CD8-CD3+CD19-)
+- CD8+ T Cells (CD4-CD8+CD3+CD19-)
+- B Cells (CD4-CD8-CD3-CD19+)
 
-```{r plusminus, message=FALSE, warning=FALSE}
+``` r
 plusminus1 <- as.data.frame(rbind(
   "CD4+_T" = c(+1, -1, +1, -1),
   "CD8+_T" = c(-1, +1, +1, -1),
@@ -39,8 +37,14 @@ colnames(plusminus1) <- colnames(hfd1)
 plusminus1
 ```
 
+    ##        CD4 CD8 CD3 CD19
+    ## CD4+_T   1  -1   1   -1
+    ## CD8+_T  -1   1   1   -1
+    ## B       -1  -1  -1    1
+
 ## Excel can be used to save or create tables (`openxlsx` package).
-```{r openxlsx}
+
+``` r
 openxlsx::write.xlsx(
   plusminus1,
   "~/plusminus.xlsx",
@@ -56,7 +60,8 @@ plusminus2 <- openxlsx::read.xlsx(
 ```
 
 ## Run the `gatetree` function.
-```{r gatetree, message=FALSE, warning=FALSE}
+
+``` r
 hfd1_gatetree <- gateTree::gatetree(hfd1, plusminus2,
   min_scaled_bic_diff = 50,
   min_depth = 10,
@@ -64,15 +69,21 @@ hfd1_gatetree <- gateTree::gatetree(hfd1, plusminus2,
 )
 ```
 
+![](images/gateTree/gatetree-1.png)<!-- -->![](images/gateTree/gatetree-2.png)<!-- -->![](images/gateTree/gatetree-3.png)<!-- -->
+
 ## Plot the tree diagram.
-```{r tree_plot, message=FALSE, warning=FALSE}
+
+``` r
 hfd1_gatetree$tree_plot +
   ggplot2::scale_y_continuous(expand = c(0.1, 0.1)) +
   ggplot2::scale_x_continuous(expand = c(0.1, 0.1))
 ```
 
+![](images/gateTree/tree_plot-1.png)<!-- -->
+
 ## Plot the data, coloured according to the `gateTree` labels.
-```{r ggpairs, message=FALSE, warning=FALSE}
+
+``` r
 GGally::ggpairs(hfd1,
   progress = FALSE,
   upper = list(continuous = "density"),
@@ -81,3 +92,5 @@ GGally::ggpairs(hfd1,
   ggokabeito::scale_colour_okabe_ito(order = c(9, 1, 2, 3)) +
   ggokabeito::scale_fill_okabe_ito(order = c(9, 1, 2, 3))
 ```
+
+![](images/gateTree/ggpairs-1.png)<!-- -->
