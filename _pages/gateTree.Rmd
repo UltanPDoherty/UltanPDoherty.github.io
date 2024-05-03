@@ -2,7 +2,7 @@
 title: "gateTree"
 author: "Ultán P. Doherty"
 date: "2024-04-25"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
