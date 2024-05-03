@@ -1,7 +1,7 @@
-gateTree
-================
-Ultán P. Doherty
-2024-04-25
+---
+permalink: /gateTree/
+title: "gateTree"
+---
 
 ## Install `gateTree`.
 
