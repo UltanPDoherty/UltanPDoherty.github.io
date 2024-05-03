@@ -19,7 +19,7 @@ hfd1 <- hd.flowSet[[1]]@exprs
 GGally::ggpairs(hfd1, upper = list(continuous = "density"), progress = FALSE)
 ```
 
-![](images/gateTree/hfd1_setup-1.png)<!-- -->
+![](gateTree_images/hfd1_setup-1.png)<!-- -->
 
 ## Prepare a plusminus table which describes three populations.
 
@@ -69,7 +69,7 @@ hfd1_gatetree <- gateTree::gatetree(hfd1, plusminus2,
 )
 ```
 
-![](gatetree-1.png)<!-- -->![](~/images/gateTree/gatetree-2.png)<!-- -->![](images/gateTree/gatetree-3.png)<!-- -->
+![](gateTree_images/gatetree-1.png)<!-- -->![](gateTree_images/gatetree-2.png)<!-- -->![](gateTree_images/gatetree-3.png)<!-- -->
 
 ## Plot the tree diagram.
 
@@ -79,7 +79,7 @@ hfd1_gatetree$tree_plot +
   ggplot2::scale_x_continuous(expand = c(0.1, 0.1))
 ```
 
-![](images/gateTree/tree_plot-1.png)<!-- -->
+![](gateTree_images/tree_plot-1.png)<!-- -->
 
 ## Plot the data, coloured according to the `gateTree` labels.
 
@@ -93,4 +93,4 @@ GGally::ggpairs(hfd1,
   ggokabeito::scale_fill_okabe_ito(order = c(9, 1, 2, 3))
 ```
 
-![](images/gateTree/ggpairs-1.png)<!-- -->
+![](gateTree_images/ggpairs-1.png)<!-- -->
