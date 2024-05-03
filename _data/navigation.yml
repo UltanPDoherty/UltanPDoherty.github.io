@@ -14,9 +14,6 @@ main:
 
   - title: "Software"
     url: /software/
-
-  - title: "gateTree"
-    url: /gateTree/
         
   - title: "Blog Posts"
     url: /year-archive/
