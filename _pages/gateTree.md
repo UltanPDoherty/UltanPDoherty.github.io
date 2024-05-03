@@ -69,7 +69,7 @@ hfd1_gatetree <- gateTree::gatetree(hfd1, plusminus2,
 )
 ```
 
-![](images/gateTree/gatetree-1.png)<!-- -->![](images/gateTree/gatetree-2.png)<!-- -->![](images/gateTree/gatetree-3.png)<!-- -->
+![](gatetree-1.png)<!-- -->![](images/gateTree/gatetree-2.png)<!-- -->![](images/gateTree/gatetree-3.png)<!-- -->
 
 ## Plot the tree diagram.
 
