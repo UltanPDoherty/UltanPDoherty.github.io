@@ -23,8 +23,9 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Ultán P. Doherty"
-  pronouns         : "he/him" 
+  pronouns         : "he / him" 
   bio              : "IRC GOIPG Scholar / TCD Statistics PhD Student"
+  bio2             : "TCD Statistics PhD Student"
   location         : "Trinity College Dublin"
   employer         : "Irish Research Council"
   uri              : #"UltanPDoherty.github.io"
