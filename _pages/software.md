@@ -18,3 +18,5 @@ It is implemented as an open-source package in the R programming language and av
 ```r
 remotes::install_github("UltanPDoherty/gateTree")
 ```
+
+A demonstration of gateTree can be found as a blog post on this website.
