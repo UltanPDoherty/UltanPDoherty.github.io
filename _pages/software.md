@@ -13,6 +13,8 @@ The data is partitioned via branching sequences of univariate splits. These univ
 
 The cell population descriptions must take the form of a table with an entry for each cell population - protein marker (variable) pair. These entries must be either +1, -1, or 0, corresponding to a positive (high), negative (low), or undefined protein marker expression level.
 
+It is implemented as an open-source package in the R programming language and available to install from GitHub using the code below.
+
 ```r
 remotes::install_github("UltanPDoherty/gateTree")
 ```
