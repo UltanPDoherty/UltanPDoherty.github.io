@@ -27,7 +27,7 @@ author:
   bio              : "IRC GOIPG Scholar / TCD Statistics PhD Student"
   location         : "Trinity College Dublin"
   employer         : "Irish Research Council"
-  uri              : "UltanPDoherty.github.io"
+  uri              : #"UltanPDoherty.github.io"
   email            : "dohertyu@tcd.ie" 
 
   # Academic websites
