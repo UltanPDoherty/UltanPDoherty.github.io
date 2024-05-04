@@ -3,6 +3,9 @@ main:
   #- title: "Publications"
   #  url: /publications/
 
+  - title: "Software"
+    url: /software/
+
   - title: "Presentations"
     url: /talks/    
 
@@ -11,9 +14,6 @@ main:
     
   #- title: "Portfolio"
   #  url: /portfolio/
-
-  - title: "Software"
-    url: /software/
         
   - title: "Blog Posts"
     url: /year-archive/
