@@ -3,7 +3,7 @@ permalink: /software/
 title: "Software"
 ---
 
-# gateTree
+## gateTree
 
 gateTree is a semi-supervised decision tree algorithm for user-informed cell population identification for flow cytometry data and other single-cell analysis data.
 
