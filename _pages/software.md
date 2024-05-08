@@ -20,3 +20,13 @@ remotes::install_github("UltanPDoherty/gateTree")
 ```
 
 
+## mustlinkMix
+
+mustlinkMix implements a must-link constrained Gaussian mixture model (Melnykov et al., 2016).
+ 
+It is as an open-source package in the R programming language and available to install from GitHub using the code below.
+
+```r
+remotes::install_github("UltanPDoherty/mustlinkMix")
+```
+
