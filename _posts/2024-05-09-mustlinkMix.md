@@ -73,7 +73,7 @@ GGally::ggpairs(hfd1,
   ggokabeito::scale_fill_okabe_ito(order = c(9, 1, 2, 3))
 ```
 
-![](/images/mustlinkMix/figure-gfm/ggpairs_gatetree-1.png)<!-- -->
+![](/images/mustlinkMix/ggpairs_gatetree-1.png)<!-- -->
 
 ## Apply mustlink.
 
