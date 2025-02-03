@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd Year Statistics PhD Student at Trinity College Dublin.
+I am a 4th Year Statistics PhD Student at Trinity College Dublin.
 
-My PhD is funded by the Irish Research Council (IRC) under a Government of Ireland Postgraduate (GOIPG) Scholarship.
+My PhD is funded by Taighde Éireann - Research Ireland under a Government of Ireland Postgraduate (GOIPG) Scholarship.
 
 My research is focused on developing statistical methods for automated cell population identification in flow cytometry data. I am particularly interested in model-based clustering and semi-supervised learning.
 
@@ -17,6 +17,6 @@ My primary supervisor is Dr. Arthur White (School of Computer Science and Statis
 
 I received a Bachelor's degree in Mathematics from Trinity College Dublin in 2021.
 
-![IRC Logo](images/IRC_LOGO_RGB.jpg "IRC_Logo")
+![TERI Logo](images/Research_Ireland_RGB_logo_black-scaled "TERI_Logo")
 
 ![TCD Logo](images/Trinity_Main_Logo.jpg "TCD_Logo")
