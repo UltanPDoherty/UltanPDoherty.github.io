@@ -17,6 +17,6 @@ My primary supervisor is Dr. Arthur White (School of Computer Science and Statis
 
 I received a Bachelor's degree in Mathematics from Trinity College Dublin in 2021.
 
-![TERI Logo](images/Research_Ireland_RGB_logo_black-scaled "TERI_Logo")
+![TERI Logo](images/Research_Ireland_RGB_logo_black-scaled.jpg "TERI_Logo")
 
 ![TCD Logo](images/Trinity_Main_Logo.jpg "TCD_Logo")
