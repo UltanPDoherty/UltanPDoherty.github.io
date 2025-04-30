@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Statistics PhD Student at Trinity College Dublin.
-
-My PhD is funded by Taighde Éireann - Research Ireland under a Government of Ireland Postgraduate (GOIPG) Scholarship.
+I am a Statistics PhD Student at Trinity College Dublin funded by Taighde Éireann - Research Ireland under a Government of Ireland Postgraduate (GOIPG) Scholarship.
 
 My primary supervisor is Dr. Arthur White (School of Computer Science and Statistics) and my secondary supervisor is Prof. Rachel McLoughlin (School of Biochemistry and Immunology).
 
