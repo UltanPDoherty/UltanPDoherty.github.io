@@ -47,7 +47,7 @@ remotes::install_github("UltanPDoherty/mustlinkMix")
 
 ## outcast
 
-outcast is a spin-off which arose during the development of outlierMBC, when we observed that if we plotted the mixture density of the data point being removed at each iteration, the resulting curve often showed a distinct elbow at the correct number of outliers.
+outcast (OUTlier Classification And Sequential Trimming) is a spin-off which arose during the development of outlierMBC, when we observed that if we plotted the mixture density of the data point being removed at each iteration, the resulting curve often showed a distinct elbow at the correct number of outliers.
 
 To exploit this, outcast iteratively removes the data point with the lowest mixture density and re-fits a Gaussian mixture model, similarly to outlierMBC, but chooses its optimal number of outliers by detecting a changepoint / elbow in the 'removal density' curve.
 
