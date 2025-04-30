@@ -11,8 +11,15 @@ redirect_from:
 
 Education
 ======
-* Undergraduate / Bachelor's: First Class Honours (Gold Medal) in Mathematics, Trinity College Dublin, 2021.
-* Secondary School: 625 (maximum) Points in Leaving Certificate, 2017.
+* Undergraduate Degree:
+  * Mathematics (BA)
+  * Trinity College Dublin
+  * 2017 - 2021
+  * First Class Honours
+  * Trinity Gold Medal
+* Leaving Certificate:
+  * 625 (maximum) Points
+  * 2017
 
 <!---
 Skills
